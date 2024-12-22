@@ -7,7 +7,7 @@ import MaxWidthWrapper from '../MaxWidthWrapper'
 
 const Nav = () => {
   return (
-    <header className='bg-my-hero-dark flex items-center overflow-hidden'>
+    <header className='bg-my-hero-dark flex items-center overflow-x-hidden'>
       <MaxWidthWrapper className=''>
         <div className='flex items-center justify-between w-full border-b border-white/10 py-8 lg:pb-9 relative'>
           <MobileNav />
