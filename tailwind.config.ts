@@ -9,6 +9,17 @@ export default {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        // padding: {
+        //   DEFAULT: '0.5rem',
+        //   sm: '2rem',
+        //   md: '2.25rem',
+        //   lg: '4rem',
+        //   xl: '5rem',
+        //   '2xl': '6rem',
+        // },
+      },
       colors: {
         my: {
           primary: 'var(--my-primary)',
@@ -16,6 +27,7 @@ export default {
           gray: 'var(--my-gray)',
           snow: 'var(--my-snow)',
           dark: 'var(--my-dark)',
+          'hero-dark': 'var(--my-hero-dark)',
         },
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
@@ -62,6 +74,9 @@ export default {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
+      },
+      backgroundImage: {
+        'hero-image': "url('@/assets/home/desktop/image-hero.jpg')",
       },
     },
   },
