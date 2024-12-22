@@ -80,10 +80,11 @@ body {
   }
 }
 
-.h1 {
+h1 {
   font-weight: bold;
   line-height: 58px;
   letter-spacing: 2px;
+  font-size: 56px;
 }
 
 h2 {
@@ -121,7 +122,7 @@ h6 {
   letter-spacing: 1.3px;
 }
 
-.overline {
+.my-overline {
   font-size: 14px;
   line-height: 19px;
   letter-spacing: 10px;

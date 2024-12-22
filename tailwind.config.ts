@@ -76,7 +76,9 @@ export default {
         sm: 'calc(var(--radius) - 4px)',
       },
       backgroundImage: {
-        'hero-image': "url('@/assets/home/desktop/image-hero.jpg')",
+        'hero-image-desktop': "url('@/assets/home/desktop/image-hero.jpg')",
+        'hero-image-mobile': "url('@/assets/home/mobile/image-header.jpg')",
+        'hero-image-tablet': "url('@/assets/home/tablet/image-header.jpg')",
       },
     },
   },
