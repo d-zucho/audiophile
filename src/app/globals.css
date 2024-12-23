@@ -86,17 +86,13 @@ body {
   }
 
   .h4 {
-    @apply text-[28px] tracking-[2px];
+    @apply text-[28px] tracking-[2px] text-black font-bold;
+  }
+
+  .subtitle {
+    @apply text-[13px] tracking-[1px] font-bold bg-transparent;
   }
 }
-
-/* h1,
-.h1 {
-  font-weight: bold;
-  line-height: 58px;
-  letter-spacing: 2px;
-  font-size: 56px;
-} */
 
 h2,
 .h2 {
@@ -114,16 +110,7 @@ h3,
   letter-spacing: 1.15px;
 }
 
-h4,
-.h4 {
-  font-size: 28px;
-  font-weight: bold;
-  line-height: 38px;
-  letter-spacing: 2px;
-}
-
-h5,
-.h5 {
+h5 {
   font-weight: bold;
   font-size: 24px;
   line-height: 33px;
@@ -142,13 +129,6 @@ h6,
   font-size: 14px;
   line-height: 19px;
   letter-spacing: 10px;
-}
-
-.sub-title {
-  font-weight: bold;
-  font-size: 13px;
-  line-height: 25px;
-  letter-spacing: 1px;
 }
 
 .ad1bg {

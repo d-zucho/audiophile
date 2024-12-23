@@ -15,7 +15,7 @@ const Hero = () => {
           <span className='my-overline mt-10 text-white/50 mb-6'>
             New Product
           </span>
-          <h1 className='mb-6 text-center lg:text-left'>
+          <h1 className='h1 mb-6 text-center lg:text-left'>
             XX99 Mark II <span className='block'>Headphones</span>
           </h1>
           <p className='text-white/75 text-[15px] font-medium leading-6 tracking-normal max-w-[350px] mb-10 text-center lg:text-left'>

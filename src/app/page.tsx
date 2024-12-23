@@ -1,6 +1,7 @@
 import Categories from '@/components/Categories'
 import Hero from '@/components/Hero'
 import HomeAd1 from '@/components/HomeAds/HomeAd1'
+import ZX7Speakers from '@/components/ZX7Speakers'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Categories />
       <HomeAd1 />
+      <ZX7Speakers />
     </div>
   )
 }

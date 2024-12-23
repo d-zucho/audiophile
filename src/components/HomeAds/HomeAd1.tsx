@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import MaxWidthWrapper from '../MaxWidthWrapper'
 import CirclePattern from '@/assets/home/desktop/pattern-circles.svg'
-import { Button, buttonVariants } from '../ui/button'
+import { buttonVariants } from '../ui/button'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
 
@@ -14,9 +14,9 @@ const HomeAd1 = () => {
         className='absolute z-10 inset-0 -top-[7rem]'
       />
       <MaxWidthWrapper className=''>
-        <div className='bg-my-primary rounded-lg py-14 overflow-clip flex flex-col lg:flex-row items-center gap-6'>
-          <div className='w-full lg:w-1/2'>
-            <picture className=''>
+        <div className='bg-my-primary rounded-lg py-14 overflow-hidden flex flex-col lg:flex-row items-center gap-6'>
+          <div className='w-full lg:w-1/2 overflow-clip'>
+            <picture className=' overflow-hidden'>
               <source
                 media='(min-width: 1024px)'
                 srcSet='/desktop/desktop-image-speaker-zx9.png'
