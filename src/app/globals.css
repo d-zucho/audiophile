@@ -80,42 +80,58 @@ body {
   }
 }
 
-h1 {
+@layer components {
+  .h1 {
+    @apply text-4xl font-bold md:text-[56px] tracking-[1.3px] leading-[40px] md:leading-[58px] md:tracking-[2px];
+  }
+
+  .h4 {
+    @apply text-[28px] tracking-[2px];
+  }
+}
+
+/* h1,
+.h1 {
   font-weight: bold;
   line-height: 58px;
   letter-spacing: 2px;
   font-size: 56px;
-}
+} */
 
-h2 {
+h2,
+.h2 {
   font-weight: bold;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 1.5px;
 }
 
-h3 {
-  font-weight: bold;
+h3,
+.h3 {
   font-size: 32px;
+  font-weight: bold;
   line-height: 36px;
   letter-spacing: 1.15px;
 }
 
-h4 {
+h4,
+.h4 {
   font-size: 28px;
   font-weight: bold;
   line-height: 38px;
   letter-spacing: 2px;
 }
 
-h5 {
+h5,
+.h5 {
   font-weight: bold;
   font-size: 24px;
   line-height: 33px;
   letter-spacing: 1.7px;
 }
 
-h6 {
+h6,
+.h6 {
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
@@ -133,4 +149,11 @@ h6 {
   font-size: 13px;
   line-height: 25px;
   letter-spacing: 1px;
+}
+
+.ad1bg {
+  background-image: url('/src/assets/home/desktop/pattern-circles.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

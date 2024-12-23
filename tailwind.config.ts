@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import { styleText } from 'util'
 
 export default {
   darkMode: ['class'],
@@ -79,6 +80,7 @@ export default {
         'hero-image-desktop': "url('@/assets/home/desktop/image-hero.jpg')",
         'hero-image-mobile': "url('@/assets/home/mobile/image-header.jpg')",
         'hero-image-tablet': "url('@/assets/home/tablet/image-header.jpg')",
+        'circle-pattern': "url('/src/assets/home/desktop/pattern-circles.svg')",
       },
     },
   },
