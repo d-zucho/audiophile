@@ -5,7 +5,7 @@ import { buttonVariants } from '../ui/button'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
 
-const HomeAd1 = () => {
+const ZX9 = () => {
   return (
     <div className='relative z-0 w-full min-w-fit'>
       <Image
@@ -14,7 +14,7 @@ const HomeAd1 = () => {
         className='absolute z-10 inset-0 -top-[7rem]'
       />
       <MaxWidthWrapper className=''>
-        <div className='bg-my-primary rounded-lg py-14 overflow-hidden flex flex-col lg:flex-row items-center gap-6'>
+        <div className='bg-my-primary rounded-xl py-14 overflow-hidden flex flex-col lg:flex-row items-center gap-6'>
           <div className='w-full lg:w-1/2 overflow-clip'>
             <picture className=' overflow-hidden'>
               <source
@@ -33,7 +33,7 @@ const HomeAd1 = () => {
             </picture>
           </div>
           {/* TEXT COPY */}
-          <div className='px-6 flex flex-col gap-6 items-center mt-10 lg:items-start w-full lg:max-w-[350px] lg:w-1/2'>
+          <div className='px-6 flex flex-col gap-6 items-center mt-10 lg:items-start w-full lg:max-w-[350px] lg:w-1/2 z-50'>
             <p className='h1 text-white text-center lg:text-left'>
               ZX9 <span className='block'>SPEAKER</span>
             </p>
@@ -57,4 +57,4 @@ const HomeAd1 = () => {
   )
 }
 
-export default HomeAd1
+export default ZX9
