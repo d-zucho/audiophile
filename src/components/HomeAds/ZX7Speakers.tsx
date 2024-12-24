@@ -1,7 +1,8 @@
 import Link from 'next/link'
-import MaxWidthWrapper from './MaxWidthWrapper'
-import { buttonVariants } from './ui/button'
+
 import { cn } from '@/lib/utils'
+import MaxWidthWrapper from '../MaxWidthWrapper'
+import { buttonVariants } from '../ui/button'
 
 const ZX7Speakers = () => {
   return (

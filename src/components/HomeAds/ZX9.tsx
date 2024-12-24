@@ -7,7 +7,7 @@ import { cn } from '@/lib/utils'
 
 const ZX9 = () => {
   return (
-    <div className='relative z-0 w-full min-w-fit'>
+    <div className='relative z-0 w-full overflow-hidden'>
       <Image
         src={CirclePattern}
         alt='Speaker ZX9'
