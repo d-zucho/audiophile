@@ -81,6 +81,10 @@ export default {
         'hero-image-mobile': "url('@/assets/home/mobile/image-header.jpg')",
         'hero-image-tablet': "url('@/assets/home/tablet/image-header.jpg')",
         'circle-pattern': "url('/src/assets/home/desktop/pattern-circles.svg')",
+        'best-gear-desktop':
+          "url('@/assets/shared/desktop/image-best-gear.jpg')",
+        'best-gear-mobile': "url('@/assets/shared/mobile/image-best-gear.jpg')",
+        'best-gear-tablet': "url('@/assets/shared/tablet/image-best-gear.jpg')",
       },
     },
   },
