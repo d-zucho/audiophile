@@ -2,9 +2,9 @@ import MaxWidthWrapper from './MaxWidthWrapper'
 
 const AboutUs = () => {
   return (
-    <section className='mb-52'>
+    <section className='py-24'>
       <MaxWidthWrapper>
-        <div className='grid grid-cols-1 lg:grid-cols-2 lg:items-center gap-10 md:gap-15 md:max-h-[270px] lg:max-h-[588px]'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 lg:items-center gap-10 md:gap-15'>
           <div className='h-[300px] md:h-[270px] lg:h-auto lg:order-2'>
             <picture className='w-full object-cover'>
               <source

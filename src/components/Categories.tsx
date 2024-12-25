@@ -4,7 +4,7 @@ import Category from './Category'
 
 const Categories = () => {
   return (
-    <section className='mt-10 bg-my-snow w-full'>
+    <section className='bg-my-snow w-full'>
       <MaxWidthWrapper>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-20 md:gap-2.5 py-10'>
           {CATEGORIES.map((category) => (
