@@ -1,4 +1,6 @@
 'use client'
+import AboutUs from '@/components/AboutUs'
+import Categories from '@/components/Categories'
 import { usePathname } from 'next/navigation'
 import React from 'react'
 
@@ -16,7 +18,11 @@ const CategoryLayout = ({
   return (
     <div className='w-full text-center'>
       <h1 className='text-white h2 py-10 bg-black/90 mb-24'>{title}</h1>
-      <main>{children}</main>
+      <main>
+        {children}
+        <Categories />
+        <AboutUs />
+      </main>
     </div>
   )
 }
