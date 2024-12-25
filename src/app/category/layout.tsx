@@ -1,7 +1,12 @@
 'use client'
 import { usePathname } from 'next/navigation'
+import React from 'react'
 
-const CategoryLayout = () => {
+const CategoryLayout = ({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) => {
   // get category from URL
   const category = usePathname().split('/')[2]
 
@@ -11,6 +16,7 @@ const CategoryLayout = () => {
   return (
     <div className='w-full text-center py-10 bg-black/90 mb-24'>
       <h1 className='text-white h2'>{title}</h1>
+      <main>{children}</main>
     </div>
   )
 }

@@ -1,7 +1,11 @@
 import React from 'react'
 
 const MarkII = () => {
-  return <section>MarkII</section>
+  return (
+    <section className='text-black'>
+      <div>hello</div>
+    </section>
+  )
 }
 
 export default MarkII
