@@ -25,7 +25,7 @@ const Category = ({ title, img }: CategoryProps) => {
           buttonVariants({ variant: 'ghost', size: 'lg' }),
           'font-bold hover:bg-transparent group'
         )}
-        href={`/category/${title}`}
+        href={`/category/${title.toLowerCase()}`}
       >
         <span className='text-black/50 font-bold text-[13px] transition duration-300 group-hover:text-my-primary tracking-[1px]'>
           SHOP

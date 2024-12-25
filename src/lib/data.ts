@@ -3,9 +3,9 @@ import HeadphonesCategory from '@/assets/shared/desktop/image-category-thumbnail
 
 export const NAV_LINKS: NavLink[] = [
   { href: '/', label: 'Home' },
-  { href: '/headphones', label: 'Headphones' },
-  { href: '/speakers', label: 'Speakers' },
-  { href: '/earphones', label: 'Earphones' },
+  { href: '/category/headphones', label: 'Headphones' },
+  { href: '/category/speakers', label: 'Speakers' },
+  { href: '/category/earphones', label: 'Earphones' },
 ]
 
 export const CATEGORIES: TCategory[] = [

@@ -19,7 +19,10 @@ const MobileNav = () => {
         <SheetTrigger className='focus:outline-none'>
           <Image src={Menu} alt='menu' className='' />
         </SheetTrigger>
-        <SheetContent className='bg-my-dark text-white border-l-2 border-white/10'>
+        <SheetContent
+          side={'left'}
+          className='bg-my-dark text-white border-l-2 border-white/10'
+        >
           <SheetHeader>
             <SheetTitle>
               <Image
