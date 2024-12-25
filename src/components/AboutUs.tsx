@@ -28,7 +28,7 @@ const AboutUs = () => {
               audio gear
             </h4>
 
-            <p className='text-black/50 font-medium text-[15px] text-center lg:text-left lg:max-w-md'>
+            <p className='text-black/50 font-medium text-[15px] text-center lg:text-left lg:max-w-md pb-20'>
               Located at the heart of New York City, Audiophile is the premier
               store for high end headphones, earphones, speakers, and audio
               accessories. We have a large showroom and luxury demonstration

@@ -33,7 +33,7 @@ const YX1 = () => {
                 href={'/'}
                 className={cn(
                   buttonVariants({ size: 'lg', variant: 'outline' }),
-                  'text-[13px] hover:text-white hover:bg-black transition duration-300 ease-in-out'
+                  'subtitle  border-black bg-transparent border-[1px] text-black hover:bg-black hover:text-white transition duration-300 ease-in-outb text-[13px]'
                 )}
               >
                 See Product

@@ -16,7 +16,7 @@ const SOCIALS = [
 
 const Footer = () => {
   return (
-    <footer className='bg-black mt-12'>
+    <footer className='bg-black'>
       <MaxWidthWrapper>
         <div className='h-1 w-[140px] bg-my-primary' />
         {/* LOGO */}
