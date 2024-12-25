@@ -14,8 +14,8 @@ const CategoryLayout = ({
   const title = category.charAt(0).toUpperCase() + category.slice(1)
 
   return (
-    <div className='w-full text-center py-10 bg-black/90 mb-24'>
-      <h1 className='text-white h2'>{title}</h1>
+    <div className='w-full text-center'>
+      <h1 className='text-white h2 py-10 bg-black/90 mb-24'>{title}</h1>
       <main>{children}</main>
     </div>
   )
