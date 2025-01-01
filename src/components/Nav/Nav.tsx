@@ -4,6 +4,7 @@ import Logo from '@/assets/shared/desktop/logo.svg'
 import { NAV_LINKS } from '@/lib/data'
 import MobileNav from './MobileNav'
 import MaxWidthWrapper from '../MaxWidthWrapper'
+import Link from 'next/link'
 
 const Nav = () => {
   return (
@@ -11,7 +12,9 @@ const Nav = () => {
       <MaxWidthWrapper className=''>
         <div className='flex items-center justify-between w-full border-b border-white/10 py-8 lg:pb-9 relative'>
           <MobileNav />
-          <Image src={Logo} alt='Audiophile' className='md:mr-auto lg:mr-0' />
+          <Link href='/' className='md:mr-auto lg:mr-0'>
+            <Image src={Logo} alt='Audiophile' className='' />
+          </Link>
           <div className='hidden lg:flex lg:items-center gap-9 absolute left-1/2 -translate-x-1/2'>
             {NAV_LINKS.map((link) => (
               <a

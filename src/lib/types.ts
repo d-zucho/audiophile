@@ -9,7 +9,7 @@ export type TCategory = {
   imgAlt: string
 }
 
-export type FeaturedHeadphone = {
+export type FeaturedProduct = {
   mobileImage: string
   tabletImage: string
   desktopImage: string

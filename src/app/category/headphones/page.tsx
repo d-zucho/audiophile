@@ -2,7 +2,7 @@ import { FEATURED_HEADPHONES_DATA } from '@/lib/data'
 import FeaturedHeadphones from '@/components/Headphones/FeaturedHeadphones'
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 
-const HeadphoneCategory = () => {
+const CategoryPage = () => {
   return (
     <div>
       <MaxWidthWrapper>
@@ -19,11 +19,10 @@ const HeadphoneCategory = () => {
             />
           ))}
         </div>
-
         <div></div>
       </MaxWidthWrapper>
     </div>
   )
 }
 
-export default HeadphoneCategory
+export default CategoryPage
