@@ -1,13 +1,13 @@
 import FeaturedProductSingle from '@/components/FeaturedProductSingle'
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
-import { FEATURED_HEADPHONES_DATA } from '@/lib/data'
+import { FEATURED_EARPHONE_DATA } from '@/lib/data'
 
-const HeadphonesPage = () => {
+const EarphonesPage = () => {
   return (
     <div>
       <MaxWidthWrapper>
         <div className='space-y-20 mb-20'>
-          {FEATURED_HEADPHONES_DATA.map((item, index) => (
+          {FEATURED_EARPHONE_DATA.map((item, index) => (
             <FeaturedProductSingle
               key={item.title}
               index={index}
@@ -26,4 +26,4 @@ const HeadphonesPage = () => {
   )
 }
 
-export default HeadphonesPage
+export default EarphonesPage

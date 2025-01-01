@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, buttonVariants } from '../ui/button'
+import { Button, buttonVariants } from './ui/button'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
 
@@ -8,6 +8,7 @@ interface FeaturedHeadphonesProps {
   tabletImage: string
   desktopImage: string
   title: string
+  index?: number
   description: string
   href: string
 }
@@ -17,15 +18,14 @@ const FeaturedHeadphones = ({
   tabletImage,
   desktopImage,
   title,
+  index,
   description,
   href,
 }: FeaturedHeadphonesProps) => {
   return (
     // <div className='grid grid-cols-1  gap-12 lg:gap-32 lg:grid-cols-2 lg:max-h-[560px]'>
     <div
-      className={`flex flex-col ${
-        title !== 'XX99 Mark II' ? 'lg:flex-row-reverse' : 'lg:flex-row'
-      }  gap-12 lg:gap-32 lg:max-h-[560px]`}
+      className={`flex flex-col lg:flex-row  gap-12 lg:gap-32 lg:max-h-[560px] even:lg:flex-row-reverse`}
     >
       {/* image */}
       <div className='bg-my-gray max-h-[352px] rounded-lg overflow-hidden lg:w-1/2'>
@@ -45,7 +45,7 @@ const FeaturedHeadphones = ({
       {/* content */}
       <div className='flex flex-col justify-center items-center lg:text-left lg:w-1/2'>
         <div>
-          {title === 'XX99 Mark II' && (
+          {index === 0 && (
             <div>
               <span className='uppercase text-[14px] tracking-[10px] text-my-primary'>
                 New Product
