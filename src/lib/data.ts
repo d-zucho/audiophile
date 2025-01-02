@@ -10,16 +10,19 @@ export const NAV_LINKS: NavLink[] = [
 
 export const CATEGORIES: TCategory[] = [
   {
+    id: 1,
     title: 'Headphones',
     img: '/image-category-thumbnail-headphones.png',
     imgAlt: 'Headphones',
   },
   {
+    id: 2,
     title: 'Speakers',
     img: '/image-category-thumbnail-speakers.png',
     imgAlt: 'Speakers',
   },
   {
+    id: 3,
     title: 'Earphones',
     img: '/image-category-thumbnail-earphones.png',
     imgAlt: 'Earphones',

@@ -4,6 +4,7 @@ export type NavLink = {
 }
 
 export type TCategory = {
+  id: any
   title: string
   img: string
   imgAlt: string
