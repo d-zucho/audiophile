@@ -4,7 +4,7 @@ export type NavLink = {
 }
 
 export type TCategory = {
-  id: any
+  id: number
   title: string
   img: string
   imgAlt: string
@@ -17,4 +17,10 @@ export type FeaturedProduct = {
   title: string
   description: string
   href: string
+}
+
+export type TProducts = {
+  categoryId: number
+  categoryName: string
+  products: FeaturedProduct[]
 }

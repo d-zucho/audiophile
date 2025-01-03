@@ -3,13 +3,24 @@ import Link from 'next/link'
 import BtnIcon from '@/assets/shared/desktop/icon-arrow-right.svg'
 import { cn } from '@/lib/utils'
 import { buttonVariants } from './ui/button'
+import { PRODUCTS } from '@/lib/data'
 interface CategoryProps {
   title: string
   img: string
-  imgAlt: string
+  imgAlt?: string
+  categoryId: number
+  categoryName: string
 }
 
-const Category = ({ title, img }: CategoryProps) => {
+const Category = ({ title, img, categoryName, categoryId }: CategoryProps) => {
+  if (!categoryName) {
+    return null
+  }
+
+  const category = PRODUCTS.find(
+    (category) => category.categoryName === categoryName
+  )
+
   return (
     <div className='bg-my-gray flex flex-col items-center gap-7 pb-5 rounded-lg'>
       <Image
@@ -20,6 +31,7 @@ const Category = ({ title, img }: CategoryProps) => {
         className='-mt-[52px]'
       />
       <p className='font-bold uppercase md:text-lg'>{title}</p>
+
       <Link
         className={cn(
           buttonVariants({ variant: 'ghost', size: 'lg' }),

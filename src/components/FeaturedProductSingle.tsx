@@ -3,7 +3,7 @@ import { Button, buttonVariants } from './ui/button'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
 
-interface FeaturedHeadphonesProps {
+interface FeaturedProductProps {
   mobileImage: string
   tabletImage: string
   desktopImage: string
@@ -13,7 +13,7 @@ interface FeaturedHeadphonesProps {
   href: string
 }
 
-const FeaturedHeadphones = ({
+const FeaturedProduct = ({
   mobileImage,
   tabletImage,
   desktopImage,
@@ -21,7 +21,7 @@ const FeaturedHeadphones = ({
   index,
   description,
   href,
-}: FeaturedHeadphonesProps) => {
+}: FeaturedProductProps) => {
   return (
     // <div className='grid grid-cols-1  gap-12 lg:gap-32 lg:grid-cols-2 lg:max-h-[560px]'>
     <div
@@ -36,7 +36,7 @@ const FeaturedHeadphones = ({
             <img
               src={mobileImage}
               alt={title}
-              className='w-full h-[352px] mx-auto object-contain md:max-h-[352px]'
+              className='w-full h-[352px] md:h-[400px] mx-auto object-contain '
             />
           </picture>
         </div>
@@ -52,7 +52,7 @@ const FeaturedHeadphones = ({
               </span>
             </div>
           )}
-          <div>
+          <div className='text-center lg:text-left'>
             <h3>
               {title} <span className='block'>Headphones</span>
             </h3>
@@ -75,4 +75,4 @@ const FeaturedHeadphones = ({
   )
 }
 
-export default FeaturedHeadphones
+export default FeaturedProduct

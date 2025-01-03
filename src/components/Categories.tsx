@@ -13,6 +13,8 @@ const Categories = () => {
               title={category.title}
               img={category.img}
               imgAlt={category.imgAlt}
+              categoryName={category.title}
+              categoryId={category.id}
             />
           ))}
         </div>
