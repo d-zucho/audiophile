@@ -13,7 +13,7 @@ interface FeaturedProductProps {
   href: string
 }
 
-const FeaturedProduct = ({
+const FeaturedProductSingle = ({
   mobileImage,
   tabletImage,
   desktopImage,
@@ -75,4 +75,4 @@ const FeaturedProduct = ({
   )
 }
 
-export default FeaturedProduct
+export default FeaturedProductSingle

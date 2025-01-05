@@ -1,4 +1,5 @@
 'use client'
+import Loading from '@/app/loading'
 import Category from '@/components/Category'
 import FeaturedProductSingle from '@/components/FeaturedProductSingle'
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
@@ -12,7 +13,7 @@ import {
 import { CloudLightning } from 'lucide-react'
 import { useParams, usePathname } from 'next/navigation'
 
-import React from 'react'
+import React, { Suspense } from 'react'
 
 interface Props {
   children?: React.ReactNode

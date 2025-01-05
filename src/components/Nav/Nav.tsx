@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 const Nav = () => {
   return (
-    <header className='bg-my-hero-dark flex items-center overflow-x-hidden'>
+    <header className='bg-my-hero-dark flex items-center overflow-x-hidden max-h-[122px]'>
       <MaxWidthWrapper className=''>
         <div className='flex items-center justify-between w-full border-b border-white/10 py-8 lg:pb-9 relative'>
           <MobileNav />
